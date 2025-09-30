@@ -136,15 +136,27 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/dark-bg-tel\ .jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   max-width: 1440px;
   margin: 0 auto;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  /* padding-top: 188px;
+  padding-bottom: 188px; */
+  padding-right: 72px;
+  padding-bottom: 72px;
 }
+@media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/dark-bg-tel-2x.jpg);
+  }
+}
+
 .hero-btn-order {
   background-color: #4d5ae5;
   color: #fff;
@@ -473,7 +485,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
+  margin-bottom: 72px;
 }
 
 .footer-social-list {
@@ -531,7 +544,7 @@ button {
   border-radius: 4px;
   /*  width: 264px;
   height: 40px; */
-  width: 100%; /* mobile */
+  width: 288px; /* mobile */
   max-width: 300px; /* mobile */
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   padding: 8px 16px;
@@ -556,7 +569,7 @@ button {
   border: none;
   background-color: #4d5ae5;
   /*  min-width: 165px; */
-  width: 100%; /* mobile */
+  width: 165px; /* mobile */
   max-width: 300px; /* mobile */
   height: 40px;
   border-radius: 4px;
