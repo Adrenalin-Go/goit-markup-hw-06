@@ -28,15 +28,16 @@ img {
   max-width: 100%;
   height: auto;
 }
+button {
+  color: pointer;
+}
 .container {
   /* max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto; */
-  width: 320px;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 320px;
+  padding: 0 16px;
+  margin: 0 auto;
 }
 
 /* ----------HEADER---------- */
@@ -49,6 +50,7 @@ img {
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -60,11 +62,22 @@ img {
   color: #4d5ae5;
 }
 .header-logo {
-  padding: 24px 0;
-  margin-right: 76px;
+  /*  padding: 24px 0;
+  margin-right: 76px; */
+  padding: 16px 0;
+  display: block;
 }
 .header-logo .logo-part {
   color: #2e2f42;
+}
+.burger-btn {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+.burger-icon {
+  display: block;
+  fill: #2f2f37;
 }
 .footer-logo .logo-part {
   color: #f4f4fd;
@@ -74,9 +87,10 @@ img {
   align-items: center;
 }
 .list-nav {
-  display: flex;
+  /*  display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 40px; */
+  display: none;
 }
 .nav-link {
   padding: 24px 0;
@@ -108,8 +122,9 @@ img {
 }
 
 .contacts {
-  font-style: normal;
-  margin-left: auto;
+  /*  font-style: normal;
+  margin-left: auto; */
+  display: none;
 }
 .contacts-list {
   display: flex;
