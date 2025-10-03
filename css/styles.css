@@ -53,7 +53,7 @@ button {
   border: 0;
 }
 
-/* common styles */
+/* -----------COMMON STULES------------*/
 
 .container {
   max-width: 320px;
@@ -85,7 +85,7 @@ button {
   }
 }
 
-/* header */
+/* --------HEADER--------- */
 
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -98,12 +98,6 @@ button {
   align-items: center;
   justify-content: space-between;
 }
-
-.header-menu,
-.header-contacts {
-  display: none;
-}
-
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -115,6 +109,10 @@ button {
   padding: 16px 0;
   display: block;
 }
+.header-menu,
+.header-contacts {
+  display: none;
+}
 
 .header-logo-part {
   font-family: "Raleway", sans-serif;
@@ -125,16 +123,15 @@ button {
   text-transform: uppercase;
   color: #2e2f42;
 }
+.burger-icon {
+  display: block;
+  fill: #2f2f37;
+}
 
 .burger-btn {
   padding: 0;
   border: none;
   background-color: transparent;
-}
-
-.burger-icon {
-  display: block;
-  fill: #2f2f37;
 }
 
 @media screen and (min-width: 768px) {
@@ -233,7 +230,7 @@ button {
   }
 }
 
-/* mobile menu */
+/* --------------MOBILE menu -------------------*/
 .mobile-menu {
   position: fixed;
   top: 0;
@@ -378,14 +375,14 @@ button {
   }
 }
 
-/* hero */
+/* -----------HERO ------------*/
 .hero {
   background-color: #2e2f42;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office-mob.jpg);
+    url(../images/dark-bg-mob.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -401,7 +398,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office-mob2x.jpg);
+      url(../images/dark-bg-mob-2x.jpg);
   }
 }
 
@@ -440,7 +437,7 @@ button {
 .hero-button:focus {
   background-color: #404bbf;
 }
-/* hero-tablet */
+/* -------------------HERO-tablet -------------*/
 
 @media screen and (min-width: 768px) {
   .hero {
@@ -448,7 +445,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office-tab.jpg);
+      url(../images/dark-bg-tab.jpg);
     padding-top: 112px;
     padding-bottom: 112px;
   }
@@ -459,7 +456,7 @@ button {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/people-office-tab2x.jpg);
+        url(../images/dark-bg-tab-2x.jpg);
     }
   }
 
@@ -471,14 +468,14 @@ button {
     margin-bottom: 36px;
   }
 }
-/* hero-desktop */
+/* ------------HERO-desktop -----------*/
 @media screen and (min-width: 1158px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office-desk.jpg);
+      url(../images/people-office.jpg);
     padding: 188px 0;
     max-width: 1440px;
   }
@@ -488,7 +485,7 @@ button {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/people-office-desk2x.jpg);
+        url(../images/people-office.jpg);
     }
   }
   .hero-title {
@@ -496,7 +493,7 @@ button {
   }
 }
 
-/* features */
+/* -----------SECTION 2  FEATURES-------- */
 .features {
   background-color: #ffffff;
   padding-top: 96px;
@@ -531,7 +528,7 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/* features-tablet */
+/* ---------FEATURES-tablet--------- */
 @media screen and (min-width: 768px) {
   .features-list {
     flex-direction: row;
@@ -546,7 +543,7 @@ button {
     width: calc(((100% - 24px) / 2));
   }
 }
-/* features-desktop */
+/* --------------FEATURES-desktop------------ */
 @media screen and (min-width: 1158px) {
   .features {
     padding: 120px 0;
@@ -583,7 +580,7 @@ button {
     font-weight: 400;
   }
 }
-/* team */
+/* -----------SECTION 3   TEAM------------- */
 
 .team {
   background-color: #f4f4fd;
@@ -673,7 +670,7 @@ button {
   height: 16px;
 }
 
-/* team-tablet */
+/* ----------TEAM-tablet------------ */
 @media screen and (min-width: 768px) {
   .team-list {
     flex-direction: row;
@@ -682,7 +679,7 @@ button {
   }
 }
 
-/* team-desktop */
+/* -------------TEAM-desktop------------*/
 @media screen and (min-width: 1158px) {
   .team {
     padding: 120px 0;
@@ -694,7 +691,7 @@ button {
   }
 }
 
-/* portfolio  */
+/* -------------SECTION 4   PORTFOLIO----------  */
 
 .portfolio {
   background-color: #ffffff;
@@ -783,7 +780,7 @@ button {
   color: #434455;
 }
 
-/* portfolio-tablet */
+/* --------PORTFOLIO-tablet------------- */
 @media screen and (min-width: 768px) {
   .portfolio-list {
     flex-direction: row;
@@ -797,7 +794,7 @@ button {
   }
 }
 
-/* portfolio-desktop */
+/* ------------PORTFOLIO-desktop--------------- */
 @media screen and (min-width: 1158px) {
   .portfolio {
     padding: 120px 0;
@@ -817,7 +814,7 @@ button {
   }
 }
 
-/* footer */
+/* ------------------FOOTER----------- */
 .footer {
   background-color: #2e2f42;
   padding-top: 96px;
@@ -975,7 +972,7 @@ button {
   margin-left: 16px;
 }
 
-/* footer-tablet */
+/* --------------FOOTER-tablet--------------- */
 @media screen and (min-width: 768px) {
   .footer .container {
     flex-direction: row;
@@ -993,7 +990,7 @@ button {
   }
 }
 
-/* footer-desktop */
+/* ------------FOOTER-desktop----------- */
 @media screen and (min-width: 1158px) {
   .footer {
     padding: 100px 0;
@@ -1013,7 +1010,7 @@ button {
   }
 }
 
-/* modal */
+/* ------------modal-------------- */
 
 .backdrop {
   position: fixed;
@@ -1261,7 +1258,7 @@ button {
   background-color: #404bbf;
 }
 
-/* modal-tablet */
+/* ------------modal-tablet----------- */
 @media screen and (min-width: 768px) {
   .modal {
     padding: 72px 24px 24px 24px;
